@@ -5,8 +5,13 @@
     <title>Tests</title>
 </head>
 <body>
+<pre>
+<code>
 <?php
-    include 'Calculator.php';
+
+    require_once('vendor/autoload.php');
+    use Calculator\Calculator;
+
     $test_cases = array(
         array('1', '2', '+', '3', '='),
         array('3', '0', '0', '/', '1', '5', '+', '5', '+', '1', '7', '='),
@@ -29,6 +34,7 @@
     }
 
 ?>
-
+</code>
+    </pre>
 </body>
 </html>

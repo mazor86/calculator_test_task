@@ -1,6 +1,6 @@
 <?php
-include "DisplayState.php";
-include "KeyRecognizer.php";
+namespace Calculator;
+use Exception;
 
 class Calculator {
     public $cur_state;

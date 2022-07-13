@@ -1,5 +1,7 @@
 <?php
 
+namespace Calculator;
+
 class DisplayState {
     public $digits;
     public $length;

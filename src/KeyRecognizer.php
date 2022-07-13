@@ -1,5 +1,7 @@
 <?php
-include "KeyHandler.php";
+
+namespace Calculator;
+use Exception;
 
 class KeyRecognizer {
 
