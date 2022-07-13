@@ -1,2 +1,5 @@
 .idea
 syntax.php
+/vendor/
+/.phpunit.result.cache
+/composer.lock
