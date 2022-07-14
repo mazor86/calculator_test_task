@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpunit bootstrap="vendor/autoload.php">
-    <testsuite name="Calculator">
-        <directory suffix="Test.php">./tests</directory>
-    </testsuite>
+    <testsuites>
+<!--        <testsuite name="Calculator">-->
+<!--            <directory suffix="Test.php">./tests/Calculator</directory>-->
+<!--        </testsuite>-->
+        <testsuite name="Parser">
+            <directory suffix="Test.php">./tests/XmlParser</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>
