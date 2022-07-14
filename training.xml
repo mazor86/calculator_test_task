@@ -1,0 +1,88 @@
+<samlp:Response ID="_31f6f0f6-bd99-44a5-84ed-aa299833d9d5" Version="2.0" IssueInstant="2021-08-31T19:28:52.492Z"
+                Destination="https://intel.northernlight.com/sso/"
+                InResponseTo="pfx551e5951-0f72-eee9-8061-168874437e49"
+                xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+    <Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+        https://sts.windows.net/46c98d88-e344-4ed4-8496-4ed7712e255d/
+    </Issuer>
+    <samlp:Status>
+        <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </samlp:Status>
+    <Assertion ID="_180363af-293d-457d-a110-e235258a0000" IssueInstant="2021-08-31T19:28:52.476Z" Version="2.0"
+               xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+        <Issuer>https://sts.windows.net/46c98d88-e344-4ed4-8496-4ed7712e255d/</Issuer>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+                <Reference URI="#_180363af-293d-457d-a110-e235258a0000">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                    <DigestValue>e4WdsXI/Sq09SmUUD5JlLrYbIOwTY337+AwZNcFtIkA=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>
+                cPnz/9144QUFX9BdxShhIYcyaNNdR8RJliVll4ahMpnBa3iUztAGzThOPK1AnW6pNXZ+Rh1zi4Ha3LgxwQOfIjf6nb06ShTB1mfIbpnfYs43BcRLFyccT+8BWq+p0bDIGyPQ/1SFMzKN5wJafyiqmsyHBHO9fF/q3+G6Ya2R/GWh5jaXKMeCyb5/bNJuNHYDy1XqZ3cTJRGkuJwHOocsqqid8xajZGTDXqjqQk3nEyvkfNfEaF26vTH//Ckj3OKSJKrHfQbyEbamBWKgQthVV6mqSVq4De77f6P2GsXSyY+qBzWszVR0Mg0Bcy7atpJ+RT7AOcvhpVX5oMayrF8PBQ==
+            </SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>
+                        MIIC8DCCAdigAwIBAgIQI/hAh8QEkLVFUdT+tZf7TDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMTA3MDcxODA4NDRaFw0yNDA3MDcxODA4NDRaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5asN5fmCvErcmAuDGTQZ6AhCT2oDPl/B7412hCLITzFJYSH6nr+937/8Ekx50Msom+X/o5nruw5KpxAKR7NPD1I5dfKcSSbJq+9/ghO+xySg9iKIIVkCi4+dPRHxHNTrbGZry5Cs7DibVbhz9ChhyoVbQXrZnjScGDzHNdruPo8U5BoQmvSOJEtoM3YO4b80JkrBWyzxS/luO3CqK1w0GHaKANpik8T1l2WSSKcL91S2e5Re+H2PMo8y22LlUVQhNe4xkTlbWbyWmvuG3po0dySXrxBip+3P+345tsNZEwnq1W5nHQE+6ordY6ZO2FnPzcYXDuThQZTcgzh/3c9tsQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBjfraPnFyo6ktOM6SVftKqPSa65difWqIzMSmDMZsMvBkNBSgJ97Tdc7kRDtiThjj2UBcU3fucVogQ+lFFvNByfgCErrQ98Kzu6JPbsdDo6S3UGuLd5lnh7AtvD4WBjXEMcdL9cDfbTsKzec61VBd1edP4PKPL3bV067oaAR5zNkwO6jmZOcrh8CcabQGFWNu7aLImRrjgGmV42Wgf/3TvJ9vqiUQf/yxqgJkHZg4r9lmEWE/RVlehEJQpFUPtuYvGx2VA1uoeRkUNTZkzy592ChZlJTHnF4sHcdDDaidiVi5VznO74GmUuQfdgwuB+5ciz2PNVud11G9kIrVHYtnf
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+        <Subject>
+            <NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">10065136</NameID>
+            <SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <SubjectConfirmationData InResponseTo="pfx551e5951-0f72-eee9-8061-168874437e49"
+                                         NotOnOrAfter="2021-08-31T20:28:52.226Z"
+                                         Recipient="https://intel.northernlight.com/sso/"/>
+            </SubjectConfirmation>
+        </Subject>
+        <Conditions NotBefore="2021-08-31T19:23:52.226Z" NotOnOrAfter="2021-08-31T20:28:52.226Z">
+            <AudienceRestriction>
+                <Audience>https://intel.northernlight.com/</Audience>
+            </AudienceRestriction>
+        </Conditions>
+        <AttributeStatement>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/tenantid">
+                <AttributeValue>46c98d88-e344-4ed4-8496-4ed7712e255d</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/objectidentifier">
+                <AttributeValue>5947ccaf-fb5d-4038-ad9f-e71c2d30a076</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/identity/claims/identityprovider">
+                <AttributeValue>https://sts.windows.net/46c98d88-e344-4ed4-8496-4ed7712e255d/</AttributeValue>
+            </Attribute>
+            <Attribute Name="http://schemas.microsoft.com/claims/authnmethodsreferences">
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/password
+                </AttributeValue>
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/x509
+                </AttributeValue>
+                <AttributeValue>http://schemas.microsoft.com/ws/2008/06/identity/authenticationmethod/windows
+                </AttributeValue>
+            </Attribute>
+            <Attribute Name="Email address">
+                <AttributeValue>mike.lafferty@intel.com</AttributeValue>
+            </Attribute>
+            <Attribute Name="First name">
+                <AttributeValue>Mike</AttributeValue>
+            </Attribute>
+            <Attribute Name="Enterprise ID">
+                <AttributeValue>10065136</AttributeValue>
+            </Attribute>
+            <Attribute Name="Last name">
+                <AttributeValue>Lafferty</AttributeValue>
+            </Attribute>
+        </AttributeStatement>
+        <AuthnStatement AuthnInstant="2021-08-31T19:26:58.674Z" SessionIndex="_180363af-293d-457d-a110-e235258a0000">
+            <AuthnContext>
+                <AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</AuthnContextClassRef>
+            </AuthnContext>
+        </AuthnStatement>
+    </Assertion>
+</samlp:Response>
