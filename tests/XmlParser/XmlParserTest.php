@@ -11,11 +11,16 @@ class XmlParserTest extends TestCase {
 
     public function testDom() {
         $parser = new DomParser($this->filename);
-        $this->assertEquals($this->expected, $parser->findLastname());
+        $this->assertSame($this->expected, $parser->findLastname());
     }
 
     public function testDomXpath() {
         $parser = new DomXpathParser($this->filename);
-        $this->assertEquals($this->expected, $parser->findLastname());
+        $this->assertSame($this->expected, $parser->findLastname());
+    }
+
+    public function testSimpleXml() {
+        $parser = new SimplexmlParser($this->filename);
+        $this->assertSame($this->expected, $parser->findLastname());
     }
 }
