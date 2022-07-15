@@ -23,4 +23,9 @@ class XmlParserTest extends TestCase {
         $parser = new SimplexmlParser($this->filename);
         $this->assertSame($this->expected, $parser->findLastname());
     }
+
+    public function testSimpleXpath() {
+        $parser = new SimplexmlXpathParser($this->filename);
+        $this->assertSame($this->expected, $parser->findLastname());
+    }
 }
