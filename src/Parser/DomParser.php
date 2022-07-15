@@ -15,7 +15,7 @@ class DomParser extends Parser {
         return null;
     }
 
-    protected function getXml() {
+    protected function setXml() {
         $this->xml = new DOMDocument();
         $this->xml->load($this->filename);
     }

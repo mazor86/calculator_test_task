@@ -13,9 +13,9 @@ abstract class Parser {
      */
     public function __construct(string $filename) {
         $this->filename = $filename;
-        $this->getXml();
+        $this->setXml();
     }
 
     abstract public function findLastname();
-    abstract protected function getXml();
+    abstract protected function setXml();
 }

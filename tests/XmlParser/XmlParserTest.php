@@ -13,4 +13,9 @@ class XmlParserTest extends TestCase {
         $parser = new DomParser($this->filename);
         $this->assertEquals($this->expected, $parser->findLastname());
     }
+
+    public function testDomXpath() {
+        $parser = new DomXpathParser($this->filename);
+        $this->assertEquals($this->expected, $parser->findLastname());
+    }
 }
