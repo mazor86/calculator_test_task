@@ -22,7 +22,8 @@ class XmlParserTest extends TestCase {
             ['DomParser'],
             ['DomXpathParser'],
             ['SimplexmlParser'],
-            ['SimplexmlXpathParser']
+            ['SimplexmlXpathParser'],
+            ['XmlParser']
         ];
     }
 }

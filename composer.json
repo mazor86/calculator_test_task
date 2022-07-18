@@ -11,6 +11,7 @@
   "require": {
     "ext-simplexml": "*",
     "ext-libxml": "*",
-    "ext-dom": "*"
+    "ext-dom": "*",
+    "ext-xml": "*"
   }
 }

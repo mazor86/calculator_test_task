@@ -5,7 +5,7 @@
 <!--            <directory suffix="Test.php">./tests/Calculator</directory>-->
 <!--        </testsuite>-->
         <testsuite name="Parser">
-            <directory suffix="Test.php">./tests/XmlParser</directory>
+            <directory suffix="Test.php">./tests/Parser</directory>
         </testsuite>
     </testsuites>
 </phpunit>
