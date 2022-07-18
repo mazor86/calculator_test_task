@@ -12,6 +12,7 @@
     "ext-simplexml": "*",
     "ext-libxml": "*",
     "ext-dom": "*",
-    "ext-xml": "*"
+    "ext-xml": "*",
+    "ext-xmlreader": "*"
   }
 }
