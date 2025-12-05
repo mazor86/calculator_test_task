@@ -13,6 +13,7 @@
     "ext-libxml": "*",
     "ext-dom": "*",
     "ext-xml": "*",
-    "ext-xmlreader": "*"
+    "ext-xmlreader": "*",
+    "phpseclib/phpseclib": "^3"
   }
 }
